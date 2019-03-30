@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="CatalogAssistant_MCA::parent" title="Multi Store Catalog assistant" module="CatalogAssistant_MCA" sortOrder="100" resource="CatalogAssistant_MCA::parent"/>
+        <add id="CatalogAssistant_MCA::index" title="Catalog Assistant" module="CatalogAssistant_MCA" sortOrder="10" action="mca/index" resource="CatalogAssistant_MCA::index" parent="CatalogAssistant_MCA::parent"/>
+		
+    </menu>
+</config>
